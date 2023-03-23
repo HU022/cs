@@ -133,3 +133,6 @@ https://crackstation.net/
  2. https://github.com/coreb1t/awesome-pentest-cheat-sheets
  3. https://github.com/qazbnm456/awesome-web-security/blob/master/README.md
  4. https://github.com/andrewjkerr/security-cheatsheets
+
+https://www.nazaudy.com/password-recovery-for-a-cisco-switch-2960
+https://www.rogerperkin.co.uk/cisco/password-recovery/password-recovery-cisco-2960x/
